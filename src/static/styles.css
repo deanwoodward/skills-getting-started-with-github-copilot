@@ -136,6 +136,22 @@ button:hover {
   display: none;
 }
 
+.participants-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.delete-participant {
+  cursor: pointer;
+  margin-left: 6px;
+  color: #c00;
+}
+
+.delete-participant:hover {
+  color: #900;
+}
+
 footer {
   text-align: center;
   margin-top: 30px;
